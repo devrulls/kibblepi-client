@@ -1,0 +1,66 @@
+.kibblepi {
+    width: 100vw;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+    background-color: var(--bg-secondary);
+    color: var(--color-font);
+    display: flex;
+    /*align-items: center;*/
+}
+
+.kibblepi-left {
+    flex: 1;
+    background-color: var(--bg-principal);
+    /* border-top: 1px solid #fff ; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.kibblepi-right {
+    height: 70%;
+    width: 70%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.kibblepi-title {
+    font-weight: 400;
+}
+
+.kibblepi-sub {
+    width: 70%;
+    margin: 20px 0;
+}
+
+.kibblepi-desc, .kibblepi-descLeft {
+    width: 70%;
+    font-weight: 300;
+}
+
+/** ****************** BTN - FORMS ****************** */
+
+.btnKibblepi {
+    border: none;
+    width: 150px;
+    height: 50px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0px 10px;
+  }
+
+  .btnKibblepi:hover {
+    background-color:#BAC964;
+  }
+
+
