@@ -10,8 +10,9 @@ export const NavBar = ({menuOpen, setMenuOpen}) => {
                 <div className='tb-left'>
                     <a href='#home' className='logo'>KIBBLEPI</a>
                     <div className="itemContainer">
-                        {/*<Person className='tb-icon'/> */}
-                        {/*<img src={Me} alt='yo' className='tb-imgRj'/>*/}
+                        <a href="https://github.com/devrulls/kibblepi-client">
+                            <img src="icon/github.png" alt='github' className='tb-img'/>
+                        </a>
 
                         <span className=''>Concepteur Développeur d’applications</span>
                     </div>

@@ -16,9 +16,7 @@ export const Home = () => {
                 <div className="wrapper">
                     <h2>Hi There, I'm hungry</h2>
                     <h2>Could you serve me some croquettes?</h2>
-                    <h3>
-                        test {/*<span ref={textRef}></span>*/}
-                    </h3>
+
                 </div>
                 {/* fin div Classname = "intro-right" */}
                 <a href="#portfolio">
