@@ -14,12 +14,6 @@ export const Menu = ({menuOpen, setMenuOpen}) => {
                 <li onClick={()=>setMenuOpen(false)}>
                     <a className='menuLink' href="#solipsia">solipsia</a>
                 </li>
-                <li onClick={()=>setMenuOpen(false)}>
-                    <a className='menuLink' href="#resume">solipsia</a>
-                </li>
-                <li onClick={()=>setMenuOpen(false)}>
-                    <a className='menuLink' href="#contact">contact</a>
-                </li>
             </ul>
         </div>
     );

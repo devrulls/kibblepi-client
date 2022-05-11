@@ -2,6 +2,7 @@
   "name": "kibblepi_client",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://devrulls1.ddns.net:8080",
   "dependencies": {
     "@material-ui/icons": "^4.11.3",
     "@testing-library/jest-dom": "^5.16.4",

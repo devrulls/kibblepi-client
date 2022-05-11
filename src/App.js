@@ -4,6 +4,7 @@ import {NavBar} from "./components/navbar/NavBar";
 import {Menu} from "./components/menu/Menu";
 import {Home} from "./components/home/Home";
 import {Kibblepi} from "./components/kibblepi/Kibblepi";
+import {Contact} from "./components/solipsia/Solipsia";
 
 function App() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -15,6 +16,7 @@ function App() {
             <div className="sections">
                 <Home/>
                 <Kibblepi/>
+                <Contact/>
             </div>
         </div>
     );
